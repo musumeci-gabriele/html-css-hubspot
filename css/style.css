@@ -24,7 +24,7 @@ body{
 }
 .setting{
   float: left;
-  width: 50%;
+  width: 50%
 }
 .languages-contact, .login-bar-list{
   list-style: none;
@@ -37,6 +37,6 @@ body{
 }
 
 .login-bar{
-  float: right;
+  float: left;
   width: 50%;
 }
