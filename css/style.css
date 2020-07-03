@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.clearfix::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.head-bar{
+  background-color:#f5f8fa;
+  border-bottom: 1px solid lightgrey;
+  padding:20px;
+}
+.setting{
+  float: left;
+  width: 50%;
+}
+.languages-contact, .login-bar-list{
+  list-style: none;
+}
+.languages-contact li, .login-bar-list li{
+  display: inline;
+}
+.languages{
+  margin-right: 20px;
+}
+
+.login-bar{
+  float: right;
+  width: 50%;
+}
