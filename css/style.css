@@ -3,12 +3,13 @@
   margin:0;
   padding: 0;
 }
-
+/* comandi sempre verdi */
 body{
   font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 .container{
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 .clearfix::after{
@@ -16,11 +17,17 @@ body{
   display:table;
   clear: both;
 }
+.btm{
+  border-radius: 3px;
+  color: white;
+  background-color: #fe775a;
 
+}
+/* head-bar */
 .head-bar{
   background-color:#f5f8fa;
   border-bottom: 1px solid lightgrey;
-  padding:20px;
+  padding:30px;
 }
 .setting{
   float: left;
@@ -31,12 +38,28 @@ body{
 }
 .languages-contact li, .login-bar-list li{
   display: inline;
+  padding: 10px 20px;
 }
 .languages{
-  margin-right: 20px;
+  margin-right: 10px;
+  border-right: 2px solid lightgrey
 }
 
 .login-bar{
   float: left;
   width: 50%;
+  text-align: right;
+  font-size: 14px;
+}
+.login-bar-list li:first-child{
+  color: #02a4bd;
+  font-size: 18px;
+}
+
+#btm-login{
+  border-radius: 3px;
+  background-color: white;
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  margin: 0 10px;
 }
