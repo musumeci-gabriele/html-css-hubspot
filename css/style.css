@@ -18,7 +18,7 @@ body{
   clear: both;
 }
 .btm{
-  border-radius: 3px;
+  border-radius: 5px;
   color: white;
   background-color: #fe775a;
 }
@@ -62,7 +62,7 @@ body{
   font-size: 18px;
 }
 #btm-login{
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: white;
   color: #fe775a;
   border: 1px solid #fe775a;
@@ -97,15 +97,34 @@ body{
 .free-tools{
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
-  width: 100%;
   height: 600px;
-  background-size: contain;
+  background-position: bottom right;
+  background-color: #fff3ee;
+  position: relative;
 }
 .dscr-free-tools{
   text-align: left;
+  list-style: none;
+  padding: 40px 623px 0 10px;;
 }
 .dscr-free-tools h1{
   font-size: 40px;
 }
-
+.dscr-free-tools li{
+  padding: 20px 0;
+}
+.big{
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+}
+.grenn-bar{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:90px;
+  background-color: #afebe4;
+  border: 3px solid #33475b;
+}
 /* free tools */
