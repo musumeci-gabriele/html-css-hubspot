@@ -159,8 +159,7 @@ body{
   padding: 50px 100px;
 }
 .mini-img{
-  height: 150px;
-  padding: 20px;
+  height: 100px;
   background-repeat: no-repeat;
 }
 .crm-in-sx{
@@ -204,35 +203,35 @@ body{
 .trio-hub{
   width: 100%;
   margin: 50px 0;
+  height: 400px;
 }
 .marketing-hub{
-  background-image: url("../img/Marketing-Hub-Free.svg");
   float: left;
-  width: 30%;
+  width: 33.33%;
+  height: 400px;
   padding: 10px;
+  height: auto;
 }
 .hub-list li{
   text-align: center;
   list-style: none;
-  vertical-align: 10px;
+  line-height: 2.8;
 }
 
 h3{
   text-transform: uppercase;
 }
-.check li{
-  list-style: none;
 
-}
+
 .sales-hub{
   float: left;
-  background-image: url("../img/Sales-Professional-Illustration.svg");
-  width: 30%;
+  width: 33.33%;
+
 }
 .service-hub{
   float: left;
-  background-image: url("../img/Service-Hub-Illustration.svg");
-  width: 30%;
+  width: 33.33%;
+  height: 400px;
 }
 
 
