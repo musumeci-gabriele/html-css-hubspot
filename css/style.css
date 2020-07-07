@@ -133,7 +133,7 @@ body{
 .powerfull-alone{
   background-color:#f5f8fa;
   width: 100%;
-  height:1000px;
+  height:auto;
 }
 .title{
   text-align: center;
@@ -155,12 +155,13 @@ body{
 }
 /* box di testa */
 .crm{
-  height: 300px;
+  height: 350px;
   padding: 50px 100px;
 }
 .mini-img{
   height: 150px;
   padding: 20px;
+  background-repeat: no-repeat;
 }
 .crm-in-sx{
   float: left;
@@ -180,16 +181,16 @@ body{
 }
 .crm-list-dx li{
   list-style: none;
-  padding: 10px 0;
+  padding: 25px 0;
 }
 .info-features:before {
-    content: '';
-    display: block;
-    float: right;
-    width: 65%;
-    height: 2px;
-    margin-top: 9px;
-    background-color: #899397;
+  content: '';
+  display: block;
+  float: right;
+  width: 65%;
+  height: 2px;
+  margin-top: 9px;
+  background-color: #899397;
 }
 .crm-bottom-list li{
   list-style: none;
@@ -200,4 +201,42 @@ body{
   color: #fe775a;
 }
 /*//box di testa */
+.trio-hub{
+  width: 100%;
+  margin: 50px 0;
+}
+.marketing-hub{
+  background-image: url("../img/Marketing-Hub-Free.svg");
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.hub-list li{
+  text-align: center;
+  list-style: none;
+  vertical-align: 10px;
+}
+
+h3{
+  text-transform: uppercase;
+}
+.check li{
+  list-style: none;
+
+}
+.sales-hub{
+  float: left;
+  background-image: url("../img/Sales-Professional-Illustration.svg");
+  width: 30%;
+}
+.service-hub{
+  float: left;
+  background-image: url("../img/Service-Hub-Illustration.svg");
+  width: 30%;
+}
+
+
+
+
+
 /* //powerfull-alone */
