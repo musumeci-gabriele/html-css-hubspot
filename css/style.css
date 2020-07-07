@@ -12,6 +12,9 @@ body{
   width: 60%;
   margin: auto;
 }
+h3{
+  text-transform: uppercase;
+}
 .clearfix::after{
   content: "";
   display:table;
@@ -133,7 +136,7 @@ body{
 .powerfull-alone{
   background-color:#f5f8fa;
   width: 100%;
-  height:auto;
+  height:1480px;
 }
 .title{
   text-align: center;
@@ -202,36 +205,36 @@ body{
 /*//box di testa */
 .trio-hub{
   width: 100%;
-  margin: 50px 0;
-  height: 400px;
+  margin: 39px 0;
+  margin-bottom: 39px;
+}
+
+.hub-box{
+  float: left;
+  width: 31%;
+  height: 600px;
+  padding: 50px;
 }
 .marketing-hub{
-  float: left;
-  width: 33.33%;
-  height: 400px;
-  padding: 10px;
-  height: auto;
+
 }
-.hub-list li{
+.hub-list{
   text-align: center;
   list-style: none;
-  line-height: 2.8;
+  line-height: 1.8;
+
 }
 
-h3{
-  text-transform: uppercase;
+#check{
+  text-align: left;
+  list-style: none;
 }
-
 
 .sales-hub{
-  float: left;
-  width: 33.33%;
-
+  margin: 0 39px;
 }
 .service-hub{
-  float: left;
-  width: 33.33%;
-  height: 400px;
+
 }
 
 
