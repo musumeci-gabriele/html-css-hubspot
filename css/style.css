@@ -180,6 +180,7 @@ h3{
 }
 .btm-learn{
   padding: 20px 40px;
+
 }
 .crm-list-dx li{
   list-style: none;
@@ -208,37 +209,43 @@ h3{
   margin: 39px 0;
   margin-bottom: 39px;
 }
-
 .hub-box{
   float: left;
   width: 31%;
-  height: 600px;
+  height: 580px;
   padding: 50px;
-}
-.marketing-hub{
-
+  line-height: 1.8;
+  text-align: center;
 }
 .hub-list{
-  text-align: center;
-  list-style: none;
-  line-height: 1.8;
-
-}
-
-#check{
   text-align: left;
   list-style: none;
+  line-height: 1,2;
+
+
 }
 
 .sales-hub{
   margin: 0 39px;
 }
-.service-hub{
-
+/* //tiro hub */
+/* tabella dati */
+.green-part{
+  width: 100%;
+  height: 1000px;
+  background-color: #00b1b0;
+  color: white;
 }
-
-
-
-
+.intestazione{
+  text-align: center;
+  padding: 50px 320px;
+}
+.intestazione >h2{
+  line-height: 1.8;
+}
+/* tabella dati */
+.tabella-dati-oggetto{
+  text-align: center;
+}
 
 /* //powerfull-alone */
