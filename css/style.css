@@ -238,14 +238,25 @@ h3{
 }
 .intestazione{
   text-align: center;
-  padding: 50px 320px;
+  font-size: 20px;
+  padding: 50px 100px;
 }
 .intestazione >h2{
   line-height: 1.8;
+  font-size: 45px;
 }
 /* tabella dati */
-.tabella-dati-oggetto{
-  text-align: center;
+.tabella-dati{
+  position: relative;
 }
+.tabella-dati-oggetto{
+  position: absolute;
+  text-align: center;
+  padding: 30px;
 
+}
+.img-tabella{
+  width: 100px;
+  height: 40px;
+}
 /* //powerfull-alone */
