@@ -6,7 +6,7 @@
 /* comandi sempre verdi */
 body{
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 .container{
   width: 60%;
@@ -273,7 +273,7 @@ h3{
 /* Partners */
 .partners{
   width: 100%;
-  height: 1000px;
+  height: 650px;
 
 }
 .dati-partners{
@@ -299,15 +299,14 @@ h3{
 }
 /* //Partners */
 /* partners bottom */
-
-.paragrafo-dati-partners{
-  height: 1000px;
-  background-color: lightgrey;
-  
-}
-
 .paragrafo{
   float: left;
+  width: 50%;
+  padding-right: 60px;
+}
+.paragrafo-dati-partners{
+  padding: 70px 0;
+
 }
 .lista-paragrafo{
   text-align: left;
@@ -315,7 +314,7 @@ h3{
 
 }
 .lista-paragrafo> li{
-  padding-top: 20px;
+
 }
 .paragrafo li:last-child{
   font-size: 12px;
@@ -323,18 +322,47 @@ h3{
 .foto-paragrafo{
   float: right;
 
+
 }
 .img-woman{
-  width: 200px;
+  width: 250px;
+}
+/* //partners bottom */
+footer{
+  background-color: #32495b;
+  width: 100%;
+  height: 1000px;
+}
+.dati-tabella{
+  width: 100%;
+  color: #cbd6e2;
+  text-align: left;
+  table-layout: auto;
+  padding-top:20px;
+
+}
+.dati-tabella> th,td{
+  padding: 10px 0;
+
+}
+.dati-tabella tr:first-child{
+  font-size: 20px;
+  color: white;
+}
+#supporto{
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: #32495b;
 }
 
-
-
-
-
-
-
-
+#social-link> li{
+  text-align: center;
+  list-style: none;
+  display: inline;
+  padding-left: 15px;
+}
 
 
 
