@@ -224,11 +224,10 @@ h3{
 
 
 }
-
 .sales-hub{
   margin: 0 39px;
 }
-/* //tiro hub */
+/* //powerfull-alone */
 /* tabella dati */
 .green-part{
   width: 100%;
@@ -245,11 +244,9 @@ h3{
   line-height: 1.8;
   font-size: 45px;
 }
-/* tabella dati */
 .tabella-dati{
   margin-top: 50px;
 }
-
 .tabella-dati-oggetto{
   float: left;
   text-align: center;
@@ -272,5 +269,44 @@ h3{
 .n-utenti{
   font-size: 40px;
 }
+/* tabella dati */
+/* Partners */
+.partners{
+  width: 100%;
+  height: 1000px;
 
-/* //powerfull-alone */
+}
+.dati-partners{
+  height: 200px;
+  padding: 80px;
+}
+.dati-mondo{
+  float: left;
+  width: 25%;
+  text-align: left;
+
+}
+.partners-logo{
+  float: right;
+  width: 50%;
+}
+.dati-mondo> h1{
+  font-size: 45px;
+}
+.img-partner{
+  width: 120px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* //Partners */
