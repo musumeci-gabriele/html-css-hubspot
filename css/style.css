@@ -232,7 +232,7 @@ h3{
 /* tabella dati */
 .green-part{
   width: 100%;
-  height: 1000px;
+  height: 900px;
   background-color: #00b1b0;
   color: white;
 }
@@ -251,17 +251,26 @@ h3{
 }
 
 .tabella-dati-oggetto{
-  display:inline-block;
+  float: left;
   text-align: center;
-  padding: 30px;
+  padding-top: 40px;
   width: 24%;
-  height: 274px;
-  border: 1px solid black;
-
-
+  height: 220px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff
+}
+.tabella-dati-oggetto:nth-child(n+5){
+  border-bottom: 0;
+}
+.tabella-dati-oggetto:last-child, .tabella-dati-oggetto:nth-child(4){
+  border-right: 0;
 }
 .img-tabella{
   width: 100px;
   height: 40px;
 }
+.n-utenti{
+  font-size: 40px;
+}
+
 /* //powerfull-alone */
